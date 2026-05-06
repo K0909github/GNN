@@ -24,7 +24,7 @@ docker run --rm gnn-cora
 依存パッケージをインストールします。
 
 ```bash
-pip install torch torch-geometric
+pip install torch torch-geometric scipy
 ```
 
 `GNN.py` を起動します。

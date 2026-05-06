@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED=1
 ENV PIP_NO_CACHE_DIR=1
 
 RUN pip install --upgrade pip \
-    && pip install torch torch-geometric
+    && pip install torch torch-geometric scipy
 
 COPY GNN.py .
 
