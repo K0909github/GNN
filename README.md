@@ -1,2 +1,2 @@
 # GNN
-For study
+For my master degree's research
